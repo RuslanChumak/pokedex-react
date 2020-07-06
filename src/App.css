@@ -1,0 +1,177 @@
+.card-title{
+  text-align: center;
+  margin:0;
+}
+body{
+  background-image: url(../src/images/bg.png);
+  background-repeat: repeat;
+}
+.card-body{
+  border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.card{
+  margin:20px;
+}
+.padd{
+  padding:10px;
+}
+.caption{
+  font-size: 15px;
+  font-weight: bold;
+
+}
+.nav-item{
+  border-bottom: 2px solid #007bff;
+  border-collapse: separate;
+}
+.row{
+  justify-content: center;
+}
+#selected{
+  background-color: blue;
+  border-color: blue;
+}
+.limit{
+  margin-right:10px;
+}
+.details{
+  margin: 5px;
+  font-size: 13.3px;
+  width:96%;
+}
+.details td{
+  border: 1px solid black;
+}
+.type{
+  margin-right: 5px;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.inf{
+  overflow-y: scroll;
+}
+.ability{
+  padding:5px;
+}
+td:first-child{
+  width:110px;
+}
+td:last-child{
+  width:100px;
+}
+.delete{
+  margin-left:5px;
+  float:right;
+  width:25px;
+  text-align: center;
+  color:white;
+  font-weight: bold;
+}
+.in{
+  display:inline-block
+}
+.tag{
+  border :1px solid gray;
+  padding-left: 5px;
+  border-radius: 5px;
+  margin: 3px;
+  color:white;
+  display:inline-block;
+
+}
+.inf::-webkit-scrollbar{
+  display:none;
+}
+.inf::-webkit-scrollbar-track{
+  background: transparent;
+}
+.inf::-webkit-scrollbar-button{
+  background: transparent;
+}
+.inf::-webkit-scrollbar-track-piece{
+  background: transparent;
+}
+.delete:hover{
+  background-color: red;
+  cursor: pointer;
+  color:white;
+}
+table{
+  border:1px solid white;
+  border-spacing: 2px;
+}
+td{
+  border:1px solid white;
+  padding: 5px;
+}
+td:last-child{
+  text-align: right;
+}
+#root{
+  position: relative;
+}
+
+.card-body{
+  border-bottom:2px solid #007bff;
+}
+.bug{
+  background-color: #a8b820;
+}
+.dark{
+  background-color: #705848;
+}
+.dragon{
+ background-color: #6f81e6;
+}
+.electric{
+background-color: #f8d030;
+}
+.fairy{
+background-color: #f8a0e0;
+}
+.fighting{
+background-color: #903028;
+}
+.fire{
+background-color: #f05030;
+}
+.flying{
+background-color: #a890f0;
+}
+.ghost{
+background-color: #705898;
+}
+.grass{
+background-color: #78c850;
+}
+.ground{
+background-color: #e0c068;
+}
+.ice{
+background-color: #98d8d8;
+}
+.normal{
+background-color: #a8a878;
+}
+.poison{
+background-color: #a040a0;
+}
+.psychic{
+background-color: #f85888;
+}
+.rock{
+background-color: #b8a038;
+}
+.shadow{
+background-color: #403246;
+}
+.steel{
+background-color: #b8b8d0;
+}
+.unknown{
+background-color: #68a090;
+}
+.water{
+background-color: #6890f0;
+}
